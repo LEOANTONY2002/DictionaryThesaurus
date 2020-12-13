@@ -1,0 +1,125 @@
+.dict {
+  background-color: #000000;
+}
+
+.form > form {
+  left: 0;
+  margin-top: -17%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed !important;
+  padding-bottom: 10px !important;
+}
+input {
+  width: 80%;
+  color: white;
+  height: 40px;
+  border-radius: 30px;
+  background: transparent;
+  text-decoration: none;
+  border: 1.5px solid blue;
+  font-size: 18px;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+
+.con {
+  margin-top: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tit {
+  margin-top: 10px !important;
+  border-radius: 6px;
+  height: max-content;
+  margin: 30px;
+  padding: 30px;
+  background: -webkit-linear-gradient(rgb(110, 5, 110), rgb(59, 6, 59), black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pos {
+  margin: 30px;
+  border-radius: 6px;
+  padding: 30px 30px 50px 30px;
+  background: -webkit-linear-gradient(rgb(12, 5, 110), rgb(16, 6, 59), black);
+}
+
+.opts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.opts > p {
+  margin: 10px 0 0 0;
+  font-size: 22px;
+  color: #3f3d3d;
+  font-weight: 700;
+}
+.opts > p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.syn {
+  background: transparent;
+}
+
+.opts1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+}
+.opts1 > p {
+  margin: 10px 0 0 0;
+  font-size: 22px;
+  color: #3f3d3d;
+  font-weight: 700;
+}
+.opts1 > p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  margin-top: 20%;
+}
+.error > p {
+  color: rgb(71, 69, 69);
+  font-size: 18px;
+}
+
+.white {
+  color: white !important;
+}
+
+.history {
+  margin-top: 90px !important;
+  background: -webkit-linear-gradient(rgb(110, 5, 110), rgb(59, 6, 59), black);
+  border-radius: 6px;
+  height: max-content;
+  margin: 30px;
+  padding: 30px;
+}
+
+.fav {
+  margin-top: 90px !important;
+  background: -webkit-linear-gradient(rgb(12, 5, 110), rgb(16, 6, 59), black);
+  border-radius: 6px;
+  height: max-content;
+  margin: 30px;
+  padding: 30px;
+}
